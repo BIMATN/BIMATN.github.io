@@ -1,5 +1,6 @@
 html { 
-  background: url(./eyeOfGod.jpg) no-repeat center center fixed; /*https://upload.wikimedia.org/wikipedia/commons/b/b1/NGC7293_%282004%29.jpg*/
+  background:
+  url(./eyeOfGod.jpg) no-repeat center center fixed; /*https://upload.wikimedia.org/wikipedia/commons/b/b1/NGC7293_%282004%29.jpg*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
