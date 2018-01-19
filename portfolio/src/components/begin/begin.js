@@ -12,8 +12,9 @@ class Begin extends Component {
         return (
             <div className="center">
                 <div className="center-item">
-                    <a id="begin" href="/"><h2>{this.props.text}</h2></a>
+                    <a id="begin" href="#begin"><p>{this.props.text}</p></a>
                 </div>
+                {this.props.children}
             </div>
         )
     }
