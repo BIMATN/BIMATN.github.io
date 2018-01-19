@@ -10,7 +10,8 @@ class Audio extends Component {
         }
     }
 
-    clickHandler = () => {
+    clickHandler = (e) => {
+        e.preventDefault();
         const audio = document.getElementById("audio");
         if(this.state.status){
             this.setState ({
