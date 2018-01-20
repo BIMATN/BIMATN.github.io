@@ -15,10 +15,10 @@ class PortBody extends Component {
         return (
             <div>
                 <div className="row">
-                    <div className="rowItem">
+                    <div>
                         <p id="bodyTitle">developer, engineer, human</p>
                     </div>
-                    <div className="rowItem">
+                    <div>
                         <p className="title">STATS</p>
                         <ul className="listText">
                             <li>Name: Benjamin Rodriguez</li>
@@ -28,62 +28,125 @@ class PortBody extends Component {
                             <li>Special 3: logical analysis</li>
                             <li>codeName: BIMATN</li>
                             <li>Email: bimatn@outlook.com</li>
-                            <li><a className="link" href="https://www.linkedin.com/in/benjamin-rodriguez/" alt="bimatn linkedIn account" target="_blank">LinkedIn</a></li>
-                            <li><a className="link" href="https://github.com/BIMATN" alt="bimatn gitHub account" target="_blank">GitHub</a></li>                     
+                            <li><a className="link" href="https://www.linkedin.com/in/benjamin-rodriguez/" alt="bimatn linkedIn account" target="_blank">Connect with me on LinkedIn</a></li>
+                            <li><a className="link" href="https://github.com/BIMATN" alt="bimatn gitHub account" target="_blank">View my GitHub</a></li>                     
                         </ul>
                     </div>
                 </div>
                 <div className="row">
-                    Applications of Note
+                    <p className="title2">Applications of Note</p>
                 </div>
                 <div className="row">
-                    Angel Fish
+                    <p className="title2">Angel Fish</p>
                 </div>
                 <div className="row">
-                    <a className="rowItem" href="https://angelfish.herokuapp.com" alt="angelfish app" target="_blank"><img src="./images/angelFish.PNG" alt="angel fish screenshot"></img></a>
-                    <ul className="rowItem">
-                        <li>Blithering Speed</li>
-                    </ul>
+                    <div className="rowImgItem">
+                        <a  href="https://angelfish.herokuapp.com" alt="angelfish app" target="_blank"><img src="./images/angelFish.PNG" alt="angel fish screenshot"></img></a>
+                    </div>
+                    <div className="rowImgItem">
+                        <p className="title2">Technology Stack</p>
+                        <ul>
+                            <li>React.js, Bootstrap</li>
+                            <li>Node.js, Express</li>
+                            <li>MySql, Sequelize</li>
+                            <li>Axios, HTML, CSS, Javascript</li>
+                        </ul>
+                        <p className="title2">Functionality</p>
+                        <ul>
+                            <li>User login/sign in</li>
+                            <li>Personal dashboard</li>
+                            <li>Create and view products</li>
+                            <li>Search for products</li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="row">
-                    Qu4tro
+                    <p className="title2">Qu4tro</p>
                 </div>
                 <div className="row">
-                    <div className="rowItem"> 
+                    <div className="rowImgItem"> 
                         <a href="https://qu4tro.herokuapp.com" alt="qu4tro app" target="_blank"><img src="./images/qu4tro.PNG" alt="quatro screenshot"></img></a>
                     </div>
-                    <div className="rowItem">
+                    <div className="rowImgItem portList">
+                        <p className="title2">Technology Stack</p>
                         <ul>
-                            <li>Blithering Speed</li>
+                            <li>Bootstrap, HTML, CSS</li>
+                            <li>Node.js, Express</li>
+                            <li>MySql, Sequelize</li>
+                            <li>AJAX, CSS, jQuery, Javascript</li>
+                            <li>Heroku Hosting</li>
+                        </ul>
+                        <p className="title2">Functionality</p>
+                        <ul>
+                            <li>User login/sign in</li>
+                            <li>Personal dashboard</li>
+                            <li>Create and view quizzes</li>
+                            <li>Find quiz by id</li>
+                            <li>Utilize Qu4tro API</li>
                         </ul>
                     </div>
                 </div>
                 <div className="row">
-                    Know Before You Go
-                </div>
-                <div className="row"> 
-                    <a className="rowItem" href="https://bimatn.github.io/Project1/" alt="know before you go" target="_blank"><img src="./images/knowBeforeYouGo.PNG" alt="know before you go screenshot"></img></a>
-                    <ul className="rowItem">
-                        <li>Blithering Speed</li>
-                    </ul>
+                    <p className="title2">Know Before You Go</p>
                 </div>
                 <div className="row">
-                    Metal Gear Solid Trivia
+                    <div className="rowImgItem"> 
+                        <a href="https://bimatn.github.io/Project1/" alt="know before you go" target="_blank"><img src="./images/knowBeforeYouGo.PNG" alt="know before you go screenshot"></img></a>
+                    </div>
+                    <div className="rowImgItem">
+                        <p className="title2">Technology Stack</p>
+                        <ul>
+                            <li>Bootstrap, HTML, CSS</li>
+                            <li>AJAX, jQuery, Javascript</li>
+                            <li>Google Maps Web API, Open Weather API, Eventful API</li>
+                            <li>GitHub Hosting</li>
+                        </ul>
+                        <p className="title2">Functionality</p>
+                        <ul>
+                            <li>Search for events by subject</li>
+                            <li>Discover event details like weather, nearby food, and nearby Hotels</li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="row"> 
-                    <a className="rowItem" href="https://bimatn.github.io/TriviaGame/" alt="metal gear trivia" target="_blank"><img src="./images/metalGear.PNG" alt="metal gear screenshot"></img></a>
-                    <ul className="rowItem">
-                        <li>Blithering Speed</li>
-                    </ul>
+                <div className="row">
+                    <p className="title2">Metal Gear Solid Trivia</p>
+                </div>
+                <div className="row">
+                    <div className="rowImgItem">
+                        <a href="https://bimatn.github.io/TriviaGame/" alt="metal gear trivia" target="_blank"><img src="./images/metalGear.PNG" alt="metal gear screenshot"></img></a>
+                    </div>
+                    <div className="rowImgItem">
+                        <p className="title2">Technology Stack</p>
+                        <ul>
+                            <li>Bootstrap, HTML, CSS</li>
+                            <li>Javascript, jQuery</li>
+                        </ul>
+                        <p className="title2">Functionality</p>
+                        <ul>
+                            <li>Answer quiz questions about Metal Gear Solid</li>
+                            <li>Find out your total score at the end</li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="row">       
-                    HangMan
+                    <p className="title2">HangMan</p>
                 </div>
-                <div className="row"> 
-                    <a className="rowItem" href="https://bimatn.github.io/Hangman-Game/" alt="hangman game" target="_blank"><img src="./images/hangman.PNG" alt="hangman screenshot"></img></a>
-                    <ul className="rowItem">
-                        <li>Blithering Speed</li>
-                    </ul>
+                <div className="row">
+                    <div className="rowImgItem"> 
+                        <a href="https://bimatn.github.io/Hangman-Game/" alt="hangman game" target="_blank"><img src="./images/hangman.PNG" alt="hangman screenshot"></img></a>
+                    </div>
+                    <div className="rowImgItem">
+                        <p className="title2">Technology Stack</p>
+                        <ul>
+                            <li>Bootstrap, HTML, CSS</li>
+                            <li>Javascript, jQuery</li>
+                        </ul>
+                        <p className="title2">Functionality</p>
+                        <ul>
+                            <li>Use your knowledge of cinema to guess the hidden word</li>
+                            <li>Don't guess wrong too much, or you will lose</li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="row">
                     <p className="title">about me</p>
