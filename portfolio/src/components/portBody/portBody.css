@@ -2,7 +2,7 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   color: white;
   font-family: 'Orbitron', sans-serif;
   background:     
@@ -12,9 +12,14 @@
   );
 }
 
-.text {
+.listText {
   font-family: 'Play', sans-serif;
-  text-align: center;
+  margin: 20px;
+  list-style: none;
+}
+
+.bioText {
+  font-family: 'Play', sans-serif;
   margin: 20px;
 }
 
@@ -22,22 +27,23 @@
   font-size: 4rem;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
 .link {
   text-decoration: none;
   color: white;
 }
 
-li {
-  text-align: justify;
+.title {
+  font-size: 2rem;
+  text-align: center;
 }
 
-h2 {
+.title2 {
+  font-size: 1.5rem;
   text-align: center;
+}
+
+.rowItem {
+  max-width: 75%;
 }
 
 img {
