@@ -38,22 +38,22 @@ class PortBody extends Component {
                 <h2>Angel Fish</h2>
             </div>
             <div className="row text">
-                <a href="https://angelfish.herokuapp.com" alt="angelfish app" target="_blank"><img src="./images/angelFish.png" alt="angel fish screenshot"></img></a>
+                <a href="https://angelfish.herokuapp.com" alt="angelfish app" target="_blank"><img src="./images/angelFish.PNG" alt="angel fish screenshot"></img></a>
             </div>
             <div className="row">
                 <h2>Qu4tro</h2>
-                <a href="https://qu4tro.herokuapp.com" alt="qu4tro app" target="_blank"><img src="./images/qu4tro.png" alt="quatro screenshot"></img></a>
+                <a href="https://qu4tro.herokuapp.com" alt="qu4tro app" target="_blank"><img src="./images/qu4tro.PNG" alt="quatro screenshot"></img></a>
             </div>
             <div className="row">
                 <div>
                     <h2>Know Before You Go</h2>
-                    <a href="https://bimatn.github.io/Project1/" alt="know before you go" target="_blank"><img src="./images/knowBeforeYouGo.png" alt="know before you go screenshot"></img></a>
+                    <a href="https://bimatn.github.io/Project1/" alt="know before you go" target="_blank"><img src="./images/knowBeforeYouGo.PNG" alt="know before you go screenshot"></img></a>
                     <h2>Metal Gear Solid Trivia</h2>
-                    <a href="https://bimatn.github.io/TriviaGame/" alt="metal gear trivia" target="_blank"><img src="./images/metalGear.png" alt="metal gear screenshot"></img></a>
+                    <a href="https://bimatn.github.io/TriviaGame/" alt="metal gear trivia" target="_blank"><img src="./images/metalGear.PNG" alt="metal gear screenshot"></img></a>
                 </div>
                 <div>
                     <h2>HangMan</h2>
-                    <a href="https://bimatn.github.io/Hangman-Game/" alt="hangman game" target="_blank"><img src="./images/hangman.png" alt="hangman screenshot"></img></a>
+                    <a href="https://bimatn.github.io/Hangman-Game/" alt="hangman game" target="_blank"><img src="./images/hangman.PNG" alt="hangman screenshot"></img></a>
                 </div>
                 <div className="text">
                     <h2>About Me</h2>
