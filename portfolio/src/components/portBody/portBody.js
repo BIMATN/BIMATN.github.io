@@ -34,7 +34,7 @@ class PortBody extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    <p className="title2">Applications of Note</p>
+                    <p className="title">Applications of Note</p>
                 </div>
                 <div className="row">
                     <p className="title2">Angel Fish</p>
@@ -67,7 +67,7 @@ class PortBody extends Component {
                     <div className="rowImgItem"> 
                         <a href="https://qu4tro.herokuapp.com" alt="qu4tro app" target="_blank"><img src="./images/qu4tro.PNG" alt="quatro screenshot"></img></a>
                     </div>
-                    <div className="rowImgItem portList">
+                    <div className="rowImgItem">
                         <p className="title2">Technology Stack</p>
                         <ul>
                             <li>Bootstrap, HTML, CSS</li>
@@ -152,7 +152,7 @@ class PortBody extends Component {
                     <p className="title">about me</p>
                 </div>
                 <div className="row">
-                    "With every privilege comes a responsibility"
+                    <p className="bioHeader">"With every privilege comes a responsibility"</p>
                 </div>
                 <div className="row">
                     <div className="rowItem bioText">
@@ -160,7 +160,7 @@ class PortBody extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    "Work smarter, not harder"
+                    <p className="bioHeader">"Work smarter, not harder"</p>
                 </div>
                 <div className="row">
                     <div className="rowItem bioText">
@@ -168,7 +168,7 @@ class PortBody extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    Man of Reason, Man of Faith
+                   <p className="bioHeader">Man of Reason, Man of Faith</p>
                 </div>
                 <div className="row">
                     <div className="rowItem bioText">

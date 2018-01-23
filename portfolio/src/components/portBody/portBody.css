@@ -1,6 +1,6 @@
 .row {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
   color: white;
@@ -16,7 +16,7 @@
   font-family: 'Play', sans-serif;
   margin: 20px;
   list-style: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .bioText {
@@ -25,7 +25,14 @@
 }
 
 #bodyTitle {
-  font-size: 4rem;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.bioHeader {
+  font-size: 1rem;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .link {
@@ -34,12 +41,12 @@
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
 }
 
 .title2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -48,7 +55,6 @@
 }
 
 .rowImgItem {
-  min-width: 40%;
   margin-left: 5%;
   margin-right: 5%; 
 }
@@ -56,4 +62,95 @@
 img {
   height: 100%;
   width: 100%;
+}
+
+@media (min-width: 640px) {
+  #bodyTitle  {
+    font-size: 3rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .title2 {
+    font-size: 1.5rem;
+  }
+  .bioText {
+    font-size: 1rem;
+  }
+  .listText {
+    font-size: 1.2rem;
+  }
+  .bioHeader {
+    font-size: 1.5rem;
+  }
+  .rowImgItem {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #bodyTitle  {
+    font-size: 2rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .title2 {
+    font-size: 1.2rem;
+  }
+  .bioText {
+    font-size: 1rem;
+  }
+  .listText {
+    font-size: 1rem;
+  }
+  .bioHeader {
+    font-size: 1rem;
+  }
+  .rowImgItem {
+    max-width: 40%;
+    min-width: 40%;
+  }
+}
+
+@media (min-width: 1366px) {
+  #bodyTitle  {
+    font-size: 3rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .title2 {
+    font-size: 1.2rem;
+  }
+  .bioText {
+    font-size: 1rem;
+  }
+  .listText {
+    font-size: 1rem;
+  }
+  .bioHeader {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  #bodyTitle  {
+    font-size: 6rem;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .title2 {
+    font-size: 2rem;
+  }
+  .bioText {
+    font-size: 1.5rem;
+  }
+  .listText {
+    font-size: 1.5rem;
+  }
+  .bioHeader {
+    font-size: 2rem;
+  }
 }
