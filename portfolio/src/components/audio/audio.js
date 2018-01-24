@@ -32,7 +32,7 @@ class Audio extends Component {
     render (props) {
         return (
             <div className="right">
-                <audio id="audio" autoPlay="autoplay" loop="loop">
+                <audio id="audio" loop="loop">
                     <source src={this.props.src} type="audio/mpeg"></source>
                     Your browser does not support the audio tag.
                 </audio>

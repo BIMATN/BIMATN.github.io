@@ -7,9 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Begin text="{execute portfolio}">
-          <Audio src="./sounds/galaxy.mp3"/>
-        </Begin>
+        <Begin text="{execute portfolio}"/>
       </div>
     );
   }
