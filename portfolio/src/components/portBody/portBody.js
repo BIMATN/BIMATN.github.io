@@ -149,7 +149,7 @@ class PortBody extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    <p className="title">about me</p>
+                    <p className="title">About Me</p>
                 </div>
                 <div className="row">
                     <p className="bioHeader">"With every privilege comes a responsibility"</p>
