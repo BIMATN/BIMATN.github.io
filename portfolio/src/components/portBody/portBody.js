@@ -17,6 +17,7 @@ class PortBody extends Component {
                 <div className="row">
                     <div>
                         <p id="bodyTitle">developer, engineer, human</p>
+                        <div className="rowNoBg"><a className="navLink" href="#about" alt="about">About Me</a><a className="navLink" href="#skills" alt="skills">Technical Skills</a></div>
                     </div>
                     <div>
                         <p className="title">STATS</p>
@@ -149,7 +150,18 @@ class PortBody extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    <p className="title">About Me</p>
+                    <p className="title" id="skills">Technical Skills</p>
+                </div>
+                <div className="row">
+                    <p className="bioHeader rowItem">Node.js &#8226; Javascript &#8226; jQuery &#8226; MySQL &#8226; React &#8226; Bootstrap &#8226;HTML &#8226; CSS &#8226; Heroku &#8226; GitHub &#8226; IDEs &#8226; Networking &#8226; Linux &#8226; Windows &#8226; Mac OS &#8226; Streaming Media &#8226; Broadcast Engineering</p>
+                </div>
+                <div className="row">
+                    <p className="title" id="about">About Me</p>
+                </div>
+                <div className="row">
+                    <div className="rowItem bioText">
+                        My technology career in broadcasting has led me to produce and engineer professional baseball games, a  superbowl, and the delivery of television to millions of people across the world. These experiences have taught me the value of attention to detail, that quality is greater than quantity, and to take pride in your product. Now, with my full stack of web development skills I look forward to the construction of useful back end systems and refined front end experiences. I am passionate about working with bright minded people who are willing to set far reaching goals and uncover new paths to attain them. For a litte more about me personally, please read on.
+                    </div>
                 </div>
                 <div className="row">
                     <p className="bioHeader">"With every privilege comes a responsibility"</p>

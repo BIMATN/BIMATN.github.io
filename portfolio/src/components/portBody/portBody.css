@@ -12,6 +12,15 @@
   );
 }
 
+.rowNoBg {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+
 .listText {
   font-family: 'Play', sans-serif;
   margin: 20px;
@@ -36,8 +45,16 @@
 }
 
 .link {
+  text-decoration: underline;
+  color: white;
+}
+
+.navLink {
   text-decoration: none;
   color: white;
+  padding: 0px 5px 0px 5px;
+  margin: 0px 5px 0px 5px;
+  font-size: 1rem;
 }
 
 .title {
@@ -86,6 +103,9 @@ img {
   .rowImgItem {
     max-width: 60%;
   }
+  .navLink {
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -99,9 +119,6 @@ img {
     font-size: 1.2rem;
   }
   .bioText {
-    font-size: 1rem;
-  }
-  .listText {
     font-size: 1rem;
   }
   .bioHeader {
@@ -124,9 +141,6 @@ img {
     font-size: 1.2rem;
   }
   .bioText {
-    font-size: 1rem;
-  }
-  .listText {
     font-size: 1rem;
   }
   .bioHeader {

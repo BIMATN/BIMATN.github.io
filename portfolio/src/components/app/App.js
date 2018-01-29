@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Begin text="{execute portfolio}"/>
+        <Begin text="{load portfolio}"/>
       </div>
     );
   }
