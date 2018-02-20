@@ -92,7 +92,7 @@ class PortBody extends Component {
                 </div>
                 <div className="row">
                     <div className="rowImgItem"> 
-                        <a href="https://bimatn.github.io/Project1/" alt="know before you go" target="_blank"><img src="./images/knowBeforeYouGo.PNG" alt="know before you go screenshot"></img></a>
+                        <a href="https://bimatn.github.io/knowB4UGo/" alt="know before you go" target="_blank"><img src="./images/knowBeforeYouGo.PNG" alt="know before you go screenshot"></img></a>
                     </div>
                     <div className="rowImgItem">
                         <p className="title2">Technology Stack</p>
