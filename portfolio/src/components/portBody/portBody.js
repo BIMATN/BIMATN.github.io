@@ -114,7 +114,7 @@ class PortBody extends Component {
                 </div>
                 <div className="row">
                     <div className="rowImgItem">
-                        <a href="https://bimatn.github.io/TriviaGame/" alt="metal gear trivia" target="_blank"><img src="./images/metalGear.PNG" alt="metal gear screenshot"></img></a>
+                        <a href="https://bimatn.github.io/triviaGame/" alt="metal gear trivia" target="_blank"><img src="./images/metalGear.PNG" alt="metal gear screenshot"></img></a>
                     </div>
                     <div className="rowImgItem">
                         <p className="title2">Technology Stack</p>
